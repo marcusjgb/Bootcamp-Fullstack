@@ -1,0 +1,43 @@
+/* General styles DecoPlants */
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 10em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url(../img/header-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header h1{
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Estilo productos */
+.products{
+    width: 80%;
+    margin: auto;
+}
+
+.products td{
+    width: 50%;
+    padding: 2em;
+}
+
+.products img{
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185,112,41);
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+}
