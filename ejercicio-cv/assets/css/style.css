@@ -1,0 +1,51 @@
+body{
+    background-color: #faebd7;
+    width: 80%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin:50px;
+    padding: 50px;
+}
+.box-model{
+    border: 2px solid black;
+    margin: 50px;
+    padding: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+img{
+    width: 250px;
+    height: 350px;
+}
+
+p, 
+li,
+th,
+td,
+h3,
+a{
+    font-size: 1.5em;
+    color: #333;
+}
+
+table,
+td {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.container{
+    background-color: #fff;
+    width: 250px;
+    height: 350px;
+    background-image: url(../img/srmoix.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
