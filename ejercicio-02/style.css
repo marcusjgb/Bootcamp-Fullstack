@@ -1,0 +1,33 @@
+*{
+    font-family: 'Lucida Sans Unicode','Lucida Grande',sans-serif, Impact, Charcoal ,sans-serif, arial, Gadget, sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: #eee;
+    margin: 2px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: darkslategrey;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 48px;
+    width: auto;
+}
+
+h2{
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+
+body{
+    background-color: darkslategrey  ;
+}
+
+p{
+    color: white;
+}
+
+img{
+    border: #eee 6px solid;
+}
