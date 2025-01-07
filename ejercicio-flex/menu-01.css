@@ -1,0 +1,23 @@
+
+body{
+    margin: 0;
+}
+
+.menu-navegacion{
+    background-color: #729e2e;
+    padding:1rem;
+    margin: 0;
+}
+
+.menu-navegacion li{
+    display:inline-block;
+}
+
+.menu-navegacion a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-navegacion a:hover{
+    background-color: #4e7a0a;
+}

@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+
+.logo{
+    width:35%
+}
+
+h1{
+    letter-spacing: 25px;
+    font-family: 'Lucida Sans';
+    color:violet
+}
+
+h2{
+    letter-spacing: 10px;
+    font-family: 'Lucida Sans';
+    color: violet;
+    text-align: left;
+}
+
+.img-left{
+    float: left;
+    margin-right: 10px;
+    width: 400px;
+}
+
+.img-right{
+    float: right;
+    margin-left: 10px;
+    width: 400px;
+}
+
+.img-xxl {
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+    color:dodgerblue;
+}
