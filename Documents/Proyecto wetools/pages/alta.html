@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta de Productos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/img/logo.png" alt="Logo Importadora">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/productos.html">Productos</a></li>
+                <li><a href="../pages/sucursales.html">Sucursales</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="#">Alta de Productos</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar productos...">
+            <button onclick="buscarProductos()">Buscar</button>
+        </div>
+    </header>
+
+    <main>
+        <h1>Alta de Productos</h1>
+        <form id="form-alta">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required maxlength="15">
+            <span class="error-message" id="nombre-error"></span>
+
+            <label for="precio">Precio:</label>
+            <input type="text" id="precio" name="precio" required>
+            <span class="error-message" id="precio-error"></span>
+
+            <label for="stock">Stock:</label>
+            <input type="text" id="stock" name="stock" required>
+            <span class="error-message" id="stock-error"></span>
+
+            <label for="marca">Marca:</label>
+            <input type="text" id="marca" name="marca" required maxlength="20">
+            <span class="error-message" id="marca-error"></span>
+
+            <label for="categoria">Categoría:</label>
+            <input type="text" id="categoria" name="categoria" required>
+
+            <label for="desc-corta">Descripción Corta:</label>
+            <textarea id="desc-corta" name="desc-corta" required></textarea>
+
+            <label for="desc-larga">Descripción Larga:</label>
+            <textarea id="desc-larga" name="desc-larga" required></textarea>
+
+            <label for="envio">Envío sin Cargo:</label>
+            <input type="checkbox" id="envio" name="envio">
+
+            <label for="foto">Foto:</label>
+            <input type="file" id="foto" name="foto" accept="image/*">
+
+            <button type="submit">Guardar Producto</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Importadora WeTools. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<section class="hero">
+    <h1>Importación de Maquinaria de Limpieza y Productos Profesionales</h1>
+    <p>En nuestra empresa ofrecemos una amplia gama de maquinaria de limpieza de última tecnología, así como productos especializados para garantizar resultados óptimos en cada tarea. Importamos equipos de alta calidad para satisfacer las necesidades de todos nuestros clientes.</p>
+</section>
+
+<div class="wrapper">
+    <div class="logos logo1"></div>
+    <div class="logos logo2"></div>
+    <div class="logos logo3"></div>
+    <div class="logos logo4"></div>
+    <div class="logos logo5"></div>
+    <div class="logos logo6"></div>
+    <div class="logos logo7"></div>
+    <div class="logos logo8"></div>
+</div>
+
+<section class="productos-destacados">
+    <h2>Productos Destacados</h2>
+    <div class="productos-grid">
+        {{#each productos}}
+        <div class="card">
+            <img src="/assets/img/{{foto}}" alt="{{nombre}}" class="card-img" />
+            <h3>{{nombre}}</h3>
+            <p>Precio: ${{precio}}</p>
+            <p>Stock: {{stock}}</p>
+            <p>Marca: {{marca}}</p>
+        </div>
+        {{/each}}
+    </div>
+</section>
+
+

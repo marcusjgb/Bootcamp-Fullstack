@@ -1,0 +1,12 @@
+<h1>Carrito Confirmado</h1>
+
+<p>Gracias por tu compra. Estos son los productos del carrito:</p>
+
+<section class="productos-grid">
+    {{#each carrito.productos}}
+    <div class="producto-card">
+        <p>Producto ID: {{productoId}}</p>
+        <p>Cantidad: {{cantidad}}</p>
+    </div>
+    {{/each}}
+</section>

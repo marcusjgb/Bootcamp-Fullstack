@@ -1,0 +1,13 @@
+<h1>Listado de Productos</h1>
+
+<section class="productos-grid">
+    {{#each productos}}
+    <div class="producto-card">
+        <img src="{{foto}}" alt="{{nombre}}" />
+        <h3>{{nombre}}</h3>
+        <p class="precio">${{precio}}</p>
+        <p class="stock">Stock: {{stock}}</p>
+        <p class="desc">{{descCorta}}</p>
+    </div>
+    {{/each}}
+</section>
